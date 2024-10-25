@@ -76,15 +76,19 @@ The compile job should be free of warnings.
 3. Use the citekey as the argument of the `\bibentry` macro inside a new subsection heading. This will inject the bibliography entry upon export to PDF.
 4. You can cluster citations by topic and subtopic by using the section and subsection macros. You can lower the heading level to the subsubsection level for the bibliographic entry if you need the subsection heading for subgroups.
 5. The colored boxes indicate hyperlinks. Comment out the hypperref package in the preamble to disable.
-6. 
-7. Compile to HTML to enjoy the output in a web browser.
-8. Compile to PDF to print and edit while traveling or away from the computer.
-9. Compiles locally with texlive; no extra packages required.
+6. The `\glsaddall` command is used to print out the entire contents of a glossary file rather than only the entries that are used in the bibNote files.
+7. Compile to HTML to enjoy the output in your web browser.
+8. Compile to PDF to print and edit while traveling or otherwise away from the computer.
+9. Compiles locally with the full installation of texlive.
+10. Compiles in `Textmate.app` with the `Option-R` command.
 
 ## Customization
 
-- Edit the title and author
-- 
+- Edit the title, author, and affiliation.
+- Edit the lines with the R, C, and L arguments in the preamble. These are the parts of the headline.
+- rename the `imagesBlaine` folder. Use a `imagesOthers` folder for images made by others.
+- Rename the tex files in bibNotes and change their content.
+- Replace `mabib0573.bib` with the file path to your global BibLaTex file for storing BibLaTex entries.
 
 
 ## Status: 
