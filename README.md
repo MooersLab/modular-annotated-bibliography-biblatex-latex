@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-# Template for making an enhanced annotated and illustrated bibliography with BiblaTeX in LaTeX
+# Template for making an enhanced annotated and illustrated bibliography with BibLaTeX in LaTeX
 
 ## What is this? Annotated bibliography on steroids
 An annotated bibliography summarizes notes about papers being read during a research project.
