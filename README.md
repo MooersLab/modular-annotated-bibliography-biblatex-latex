@@ -51,10 +51,6 @@ The files in *overleaf-biblatex-drag-n-drop.zip* have been configured for runnin
 The file `mabib0573.tex will compile automatically to a PDF. 
 The compile job will finish with one warning of no consequence.
 
-
-
-
-
 ## Usage
 
 1. Create one tex file per reference in the `bibNotes` folder.
@@ -93,10 +89,13 @@ The compile job will finish with one warning of no consequence.
 
 ## Status: 
 Ready to use and enjoy on Overleaf by drag and drop.
+I used `pdfLaTeX` version 2024 to compile.
+Access compiler selection under the Menu in the upper left.
+
 
 ### Local use requires customization of the file paths.
  1. I store the above files in a subfolder of my project folder, which I store at the top level of my home directory for rapid access.
- 2. I store the subfolders (bibNotes, imagesBlaine, and glossaries) in a global location (e.g. ~/) for easy access by other projects.
+ 2. I store the subfolders (bibNotes, imagesBlaine, and glossaries) in a global location (e.g. ~./) for easy access by other projects.
 
 ## Coming soon
 
