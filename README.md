@@ -74,10 +74,12 @@ The compile job should be free of warnings.
       - glossary terms
       - math notation 
 3. Use the citekey as the argument of the `\bibentry` macro inside a new subsection heading. This will inject the bibliography entry upon export to PDF.
-4. You can cluster citations by topic and subtopic. You can lower the heading level to the subsubsection level for the bibliographic entry.
-5. Compile to HTML to enjoy the output in a web browser.
-6. Compile to PDF to print and edit while traveling or away from the computer.
-7. Compiles locally with texlive; no extra packages required.
+4. You can cluster citations by topic and subtopic by using the section and subsection macros. You can lower the heading level to the subsubsection level for the bibliographic entry if you need the subsection heading for subgroups.
+5. The colored boxes indicate hyperlinks. Comment out the hypperref package in the preamble to disable.
+6. 
+7. Compile to HTML to enjoy the output in a web browser.
+8. Compile to PDF to print and edit while traveling or away from the computer.
+9. Compiles locally with texlive; no extra packages required.
 
 ## Customization
 
@@ -87,6 +89,10 @@ The compile job should be free of warnings.
 
 ## Status: 
 Ready to use and enjoy on Overleaf by drag and drop.
+
+### Local use requires customization of the file paths.
+ 1. I store the above files in a subfolder of my project folder, which I store at the top level of my home directory for rapid access.
+ 2. I store the subfolders (bibNotes, imagesBlaine, and glossaries) in a global location (e.g. ~/) for easy access by other projects.
 
 ## Coming soon
 
@@ -106,4 +112,4 @@ Ready to use and enjoy on Overleaf by drag and drop.
 |:------------------|:--------------------------------------------------------------------------------------------------------------------|:--------------------------| 
 | 0.1               | Initial commit.                                                                                                     | 2024  October 24          |
 
-# modular-annotated-bibliography-biblatex-latex
+
