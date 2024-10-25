@@ -43,13 +43,13 @@ It can also be used collaboratively online in Overleaf.
 ## Drag-and-Drop install instructions for Overleaf.com
 
 This is the fastest way to explore the features of this template.
-The files in *Overleaf-Modular-Annotated-Bibliography-BibLaTeX-Overleaf.zip* have been configured for running on Overleaf.
+The files in *overleaf-biblatex-drag-n-drop.zip* have been configured for running on Overleaf.
 
-1. Download the zip` file: `Modular-Annotated-Bibliography-BibLaTeX-Overleaf.zip`.
+1. Download the zip` file: `overleaf-biblatex-drag-n-drop.zip`.
 2. Upload this zip file into a new project on Overleaf.
 
 The file `mabib0573.tex will compile automatically to a PDF. 
-The compile job should be free of warnings.
+The compile job will finish with one warning of no consequence.
 
 
 
