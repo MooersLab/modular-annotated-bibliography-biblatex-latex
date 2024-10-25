@@ -57,14 +57,36 @@ The compile job should be free of warnings.
 
 ## Usage
 
-1. Create one tex file per reference in the `~/bibNotes folder`. Use the supplied examples as templates. Use the cite key from BibTeX as the name of the bibNote file. Use a blank line between paragraphs. Note that text-wrapping figures is easier than text-wrapping tables. Skip text-wrapping if it is too tedious. Add figures, tables, equations, URLs, citekeys, index macros, acronyms, glossary terms, and math notation as you work.
-2. Use the citekey as the argument of the `\bibentry` macro inside a new subsection heading. This will inject the bibliography entry upon export to PDF.
-3. You can cluster citations by topic and subtopic. You can lower the heading level to the subsubsection level for the bibilographic entry.
-4. Compile to HTML to enjoy the output in a web browser. Compile to PDF to edit while traveling or away from the computer.
-5. Compiles with texlive; no extra packages required.
+1. Create one tex file per reference in the `bibNotes` folder.
+    - Use the supplied examples as templates.
+    - Use the citekey from BibLaTeX as the name of the bibNote file.
+    - Use a blank line between paragraphs.
+    - Note that text-wrapping figures is easier than text-wrapping tables.
+    - Skip text-wrapping if it is too tedious.
+    - As you work, add
+      - figures
+      - tables
+      - equations
+      - URLs (including links to videos)
+      - citekeys to references in and out of the annotated bibliography
+      - index macros
+      - acronyms
+      - glossary terms
+      - math notation 
+3. Use the citekey as the argument of the `\bibentry` macro inside a new subsection heading. This will inject the bibliography entry upon export to PDF.
+4. You can cluster citations by topic and subtopic. You can lower the heading level to the subsubsection level for the bibliographic entry.
+5. Compile to HTML to enjoy the output in a web browser.
+6. Compile to PDF to print and edit while traveling or away from the computer.
+7. Compiles locally with texlive; no extra packages required.
+
+## Customization
+
+- Edit the title and author
+- 
+
 
 ## Status: 
-Ready to use and enjoy on overleaf or locally!
+Ready to use and enjoy on Overleaf by drag and drop.
 
 ## Coming soon
 
