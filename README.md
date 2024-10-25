@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-# Template for making an enhanced annotated and illustrated bibliography with BibTeX in LaTeX
+# Template for making an enhanced annotated and illustrated bibliography with BiblaTeX in LaTeX
 
 ## What is this? Annotated bibliography on steroids
 An annotated bibliography summarizes notes about papers being read during a research project.
@@ -15,7 +15,7 @@ It is one of several methods for working with the knowledge gleaned from reading
 This modular form enables the reuse of entries in annotated bibliographies for related projects.
 It has the following enhanced features that the classic annotated bibliography lacks:
 
-- No longer restrained by the annote field in BibTeX which removes whitespaces including blank lines between paragraphs.
+- No longer restrained by the annote field in BibTeX which removes whitespace, including blank lines between paragraphs.
 - Modular entries for easy reuse in related projects.
 - Images.
 - Tables.
