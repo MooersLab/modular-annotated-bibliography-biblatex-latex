@@ -100,7 +100,6 @@ Access compiler selection under the Menu in the upper left.
 ## Coming soon
 
 - Variants for org-mde.
-- Variants for typst.
 
 ## Sources of funding
 
