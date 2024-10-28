@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=modular-annotated-bibliography-bibtex-latex&message=0.1&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=modular-annotated-bibliography-bibtex-latex&message=0.2&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -157,5 +157,5 @@ cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-biblatex-late
 | Version           |  Changes                                                                                                            | Date                      |
 |:------------------|:--------------------------------------------------------------------------------------------------------------------|:--------------------------| 
 | 0.1               | Initial commit.                                                                                                     | 2024  October 24          |
-
+| 0.2               | Edited folder names in bash script to be consistent with the analogous Typst project.                               | 2024  October 27          |
 
