@@ -68,7 +68,8 @@ The compile job will finish with one warning of no consequence.
       - index macros
       - acronyms
       - glossary terms
-      - math notation 
+      - math notation
+        
 3. Use the citekey as the argument of the `\bibentry` macro inside a new subsection heading. This will inject the bibliography entry upon export to PDF.
 4. You can cluster citations by topic and subtopic by using the section and subsection macros. You can lower the heading level to the subsubsection level for the bibliographic entry if you need the subsection heading for subgroups.
 5. The colored boxes indicate hyperlinks. Comment out the hypperref package in the preamble to disable.
@@ -96,6 +97,49 @@ Access compiler selection under the Menu in the upper left.
 ### Local use requires customization of the file paths.
  1. I store the above files in a subfolder of my project folder, which I store at the top level of my home directory for rapid access.
  2. I store the subfolders (bibNotes, imagesBlaine, and glossaries) in a global location (e.g. ~./) for easy access by other projects.
+
+### Bash Function to generate subfolder with required files
+
+Edit the file paths as needed.
+Takes a project ID as the only argument.
+Assumes that the following folders are in you home directory:
+
+-  bibNotes
+-  glossaries
+-  imagesBlaine
+
+Customize the name of the last folder.
+
+Run from the top level of your writing project directory.
+Upon reuse, delete the `cp -R` commands to avoid overwriting existing files.
+
+
+```bash
+function mabtex {
+echo "Create a modular annotated bibliography (mab) subfolder and populate with required files with project number in the title."
+if [ $# -lt 1 ]; then
+  echo 1>&2 "$0: not enough arguments"
+  echo "Usage1: mabibtex projectIndexNumber"
+  return 2
+elif [ $# -gt 1 ]; then
+  echo 1>&2 "$0: too many projectIndexNumber"
+  echo "Usage1: mabtex projectIndexNumber"
+  return 2
+fi
+projectID="$1"
+mkdir mab$1
+cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-biblatex-latex/compile.sh ./mab$1/.
+cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-biblatex-latex/apacannx.bst ./mab$1/.
+cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-biblatex-latex/mab0519.bib ./mab$1/mab$1.bib
+cp ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-biblatex-latex/mab0519.tex ./mab$1/mab$1.tex
+cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-biblatex-latex/glossaries/glossary.tex ~/glossaries/.
+cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-biblatex-latex/bibNotes ~/glossary/.
+cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-biblatex-latex/notation.tex ~/glossary/.
+cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-biblatex-latex/bibNotes/* ~/bibNotes/.
+cp -R ~/6112MooersLabGitHubLabRepos/modular-annotated-bibliography-biblatex-latex/imagesBlaine/* ~/imagesBlaine/.
+}
+```
+
 
 ## Coming soon
 
